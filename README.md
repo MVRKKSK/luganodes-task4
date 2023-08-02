@@ -57,7 +57,7 @@ Start the server: 🚀
 ```bash
 npm start
 ```
-The server should now be running locally at http://localhost:5000. 🌐
+The server should now be running locally at http://localhost:8000. 🌐
 
 Interface (React.js) 💻🎨
 Local Installation ⚙️

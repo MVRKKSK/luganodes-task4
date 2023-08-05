@@ -25,7 +25,6 @@ To run the server locally, follow these steps:
 ```bash
 cd server
 
-Absolutely! Below is an organized and emoji-rich README.md for your full-stack application repository with separate folders for the Node.js server and React.js interface.
 
 markdown
 Copy code
@@ -72,7 +71,7 @@ cd interface
 Install the required dependencies: 📦
 bash
 npm install
-Update the API endpoint in the src/config.js file to match your local server's address (e.g., http://localhost:5000). 🔄
+Update the API endpoint in the .env file to match your local server's address (e.g., http://localhost:8000/api/). 🔄
 ```
 
 Start the development server: 🚀
@@ -94,7 +93,7 @@ A powerful state management library for MERN applications. Simplify complex stat
 - 🔍 Selectors: Extract specific data from the Redux store for components.
 
 🚀 How It Works:
-- 📦 Setup Redux Store: Install required packages and create the Redux store.
+- 📦 Setup Redux Store: Install the required packages and create the Redux store.
 - 🚀 Define Actions: Create action types and build action creators.
 - ⚙️ Create Reducers: Write reducer functions for state changes.
 - 🔗 Combine Reducers: Combine reducers into a root reducer.
